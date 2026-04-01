@@ -25,4 +25,9 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("CreditosScene");
     }
+
+    public void IniciarQuiz()
+    {
+        SceneManager.LoadScene("QuizScene");
+    }
 }
