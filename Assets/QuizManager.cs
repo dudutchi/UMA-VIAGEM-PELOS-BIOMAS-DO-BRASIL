@@ -12,14 +12,30 @@ public class Pergunta
 public class QuizManager : MonoBehaviour
 {
     public TextMeshProUGUI textoPergunta;
-    public TextMeshProUGUI[] textosAlternativas;
+    public TextMeshProUGUI[] textosAlternativas; // arrastar os textos dos botões aqui
 
-    public Pergunta[] perguntas;
-
+    private Pergunta[] perguntas;
     private int perguntaAtual = 0;
 
     void Start()
     {
+        // Criando perguntas direto no código
+        perguntas = new Pergunta[]
+        {
+            new Pergunta
+            {
+                enunciado = "A Amazônia é o maior bioma do Brasil?",
+                alternativas = new string[] { "A", "B", "C", "D" },
+                respostaCorreta = 0
+            },
+            new Pergunta
+            {
+                enunciado = "O Cerrado é considerado uma savana?",
+                alternativas = new string[] { "A", "B", "C", "D" },
+                respostaCorreta = 3
+            }
+        };
+
         MostrarPergunta();
     }
 
@@ -29,7 +45,8 @@ public class QuizManager : MonoBehaviour
 
         textoPergunta.text = p.enunciado;
 
-        for (int i = 0; i < textosAlternativas.Length; i++)
+        // Atualiza as alternativas
+        for (int i = 0; i < p.alternativas.Length; i++)
         {
             textosAlternativas[i].text = p.alternativas[i];
         }
@@ -54,7 +71,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Fim do quiz");
+            Debug.Log("Fim do quiz!");
         }
     }
 }
