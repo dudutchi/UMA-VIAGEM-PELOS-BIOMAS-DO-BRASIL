@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
+using System;
 
 [System.Serializable]
 public class Pergunta
@@ -12,25 +13,26 @@ public class Pergunta
 public class QuizManager : MonoBehaviour
 {
     public TextMeshProUGUI textoPergunta;
-    public TextMeshProUGUI[] textosAlternativas; // arrastar os textos dos bot�es aqui
+    public TextMeshProUGUI[] textosAlternativas; // arrastar os textos dos botões aqui
 
     private Pergunta[] perguntas;
     private int perguntaAtual = 0;
+    private int pontuacao = 0;
 
     void Start()
     {
-        // Criando perguntas direto no c�digo
+        // Criando perguntas direto no código
         perguntas = new Pergunta[]
         {
             new Pergunta
             {
-                enunciado = "A Amaz�nia � o maior bioma do Brasil?",
+                enunciado = "A Amazônia é o maior bioma do Brasil?",
                 alternativas = new string[] { "A", "B", "C", "D" },
                 respostaCorreta = 0
             },
             new Pergunta
             {
-                enunciado = "O Cerrado � considerado uma savana?",
+                enunciado = "O Cerrado é considerado uma savana?",
                 alternativas = new string[] { "A", "B", "C", "D" },
                 respostaCorreta = 3
             }
@@ -57,6 +59,7 @@ public class QuizManager : MonoBehaviour
         if (indice == perguntas[perguntaAtual].respostaCorreta)
         {
             Debug.Log("Acertou!");
+            pontuacao += 10; // 👈 soma pontos
         }
         else
         {
@@ -71,7 +74,20 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Fim do quiz!");
+            FinalizarQuiz(); // 👈 chama o final
         }
+    }
+
+    void FinalizarQuiz()
+    {
+        Debug.Log("Fim do quiz!");
+        Debug.Log("Pontuação final: " + pontuacao);
+
+        // 👇 SALVA A PONTUAÇÃO
+        PlayerPrefs.SetInt("Pontuacao", pontuacao);
+        PlayerPrefs.Save();
+
+        // 👇 TROCA DE CENA
+        UnityEngine.SceneManagement.SceneManager.LoadScene("RankingScene");
     }
 }

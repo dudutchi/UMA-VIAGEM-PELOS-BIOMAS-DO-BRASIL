@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizScene.unity
     guid: ca0d6936811d54c479cbc2213ad6803f
+  - enabled: 1
+    path: Assets/Scenes/RankingScene.unity
+    guid: 6a8d6e385004665449eb42e227f7aad8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

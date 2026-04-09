@@ -30,4 +30,9 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("QuizScene");
     }
+
+    public void IniciarRanking()
+        {
+            SceneManager.LoadScene("RankingScene");
+        }
 }

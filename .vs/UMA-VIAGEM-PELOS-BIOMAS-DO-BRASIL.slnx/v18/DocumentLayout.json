@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\ltaun\\desktop\\projetos\\repositorio uma viagem pelo mundo\\uma-viagem-pelos-biomas-do-brasil\\assets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\ltaun\\desktop\\projetos\\repositorio uma viagem pelo mundo\\uma-viagem-pelos-biomas-do-brasil\\assets\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\ltaun\\desktop\\projetos\\repositorio uma viagem pelo mundo\\uma-viagem-pelos-biomas-do-brasil\\assets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\Assets\\RankingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RankingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "QuizManager.cs",
               "DocumentMoniker": "C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\Assets\\QuizManager.cs",
               "RelativeDocumentMoniker": "Assets\\QuizManager.cs",
               "ToolTip": "C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\Assets\\QuizManager.cs",
               "RelativeToolTip": "Assets\\QuizManager.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T14:25:19.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\Assets\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\MenuManager.cs",
               "ToolTip": "C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\Assets\\MenuManager.cs",
               "RelativeToolTip": "Assets\\MenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA5wCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T14:16:59.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RankingManager.cs",
+              "DocumentMoniker": "C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\Assets\\RankingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\RankingManager.cs",
+              "ToolTip": "C:\\Users\\ltaun\\Desktop\\projetos\\Repositorio uma viagem pelo mundo\\UMA-VIAGEM-PELOS-BIOMAS-DO-BRASIL\\Assets\\RankingManager.cs",
+              "RelativeToolTip": "Assets\\RankingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:43:43.69Z",
               "EditorCaption": ""
             }
           ]
